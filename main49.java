@@ -4,7 +4,11 @@ public class main49 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
           String s = sc.nextLine();
-          String words[] = s.split(" ");
+          String words[] = s.split("\\.");
+          for(int i =0;i<words.length;i++){
+            System.out.println(words[i]);
+          }
+          System.out.println();
           int i = 0 , j = words.length-1;
           while(j >= i){
             String temp = words[i];
@@ -19,12 +23,13 @@ public class main49 {
 }
 // "i.like.this.program.very.much"
 // "i like this program very much"
-//  String words[] = s.split("\\.");
+
+//          String words[] = s.split("\\.");
 //          ArrayList<String> list = new ArrayList<>();
 
 //         // empty strings remove karo
 //         for(String word : words){
-//             if(!word.equals("")){
+//             if(!word.equals(" ")){
 //                 list.add(word);
 //             }
 //         }
