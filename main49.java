@@ -17,6 +17,8 @@ public class main49 {
 
     }
 }
+// "i.like.this.program.very.much"
+// "i like this program very much"
 //  String words[] = s.split("\\.");
 //          ArrayList<String> list = new ArrayList<>();
 
